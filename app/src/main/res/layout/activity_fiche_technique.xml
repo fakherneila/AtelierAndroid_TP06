@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvFicheTitre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tp06_fiche_titre"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvFicheMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tp06_fiche_message"
+            android:textSize="16sp"
+            android:textColor="@color/onBackground" />
+
+    </LinearLayout>
+</ScrollView>
